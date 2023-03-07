@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="plus">추가</string>
+    <string name="input">할 일을 입력하세요</string>
+</resources>
