@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
     <EditText
         android:id="@+id/edit_text_input"
@@ -17,7 +18,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:hint="@string/input"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"/>
 
     <Button
         android:id="@+id/add_btn"
@@ -28,7 +30,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/plus"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:background="@drawable/round_button"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
